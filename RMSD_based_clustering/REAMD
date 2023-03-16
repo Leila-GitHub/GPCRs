@@ -1,0 +1,7 @@
+RMSD-based clustering for CB1-synthetic cannabinoids simulations
+
+1-	pick_clust.ipynb (picks the number of clusters based on Gap-statistics)	
+2-	clustering_cb1_TMs.ipynb (K-means clustering, input "all-to-all RMSD matrix) 
+		center of clusters mapped to the original frames of MD simulations for visual inspection using Pymol)
+		selected clusters saved and mapped to the original frames for further analysis
+3-	clust.sh: sample bash script to run Jupyter notebook from terminal
