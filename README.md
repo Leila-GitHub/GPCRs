@@ -1,3 +1,3 @@
 # Please take a brief peek...
 ## This repo includes some of my codes (in Python) to analyze MD simulations of G-protein Coupled Receptors (GPCRs)
-![Model](https://github.com/Leila-GitHub/JupyterNotebooks/blob/main/GPCR.png)
+![Model](https://github.com/Leila-GitHub/JupyterNotebooks/blob/main/ACKR3_CXCL12.png)
