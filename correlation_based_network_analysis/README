@@ -1,9 +1,9 @@
 This directory includes sample codes to do the correlation-based network analysis for CB1 (Class A GPCR)
 
 1-	dist_step1_rec.ipynb (distance between Ca-Ca of all TM domains, The number of CPUs = The number of TM lists)
-2-	dist_step1_ga.ipynb  (distance between Ca-Ca of TM domains and G-protein, The number of CPUs = The number of lists)
+2-	dist_step1_ga.ipynb  (distance between Ca-Ca of TM domains and G-protein, The number of CPUs = The number of TM lists)
 
 #1 and #2 are computationally expensive, so distributed them on N number of CPUs, and N is the number of lists
 
-3-	corr_TMs_ga_Lig.ipynb (merges #1 & #2 output files with some other files and the results will be input to correlation analysis)
+3-	corr_TMs_ga_Lig.ipynb (merges #1 & #2 output files with some other files and the results will be input to the correlation analysis)
 4-	corr_TMs_ga_2d.ipynb (automatically read the final correlated pairs and generates the 2D maps for santiy checks)	
